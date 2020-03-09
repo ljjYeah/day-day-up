@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a72909ca-232a-486f-a081-695713e0e708" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/CustomVModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/KeepAliveDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/KeepAliveState1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/KeepAliveState2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/KeepAliveState3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/MixinDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/NamedSlotDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/NextTick.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/ScopedSlotDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/SlotDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/AdvancedUse/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/BaseUse/ClassDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/BaseUse/ComputedDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/BaseUse/ConditionDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/BaseUse/EventDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/BaseUse/FormDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/BaseUse/ListDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/BaseUse/TplDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/BaseUse/WatchDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/ComponentsDemo/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/ComponentsDemo/Input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/ComponentsDemo/List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/ComponentsDemo/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/框架/vue/code/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YIBS1uedNKMCnfFvGtlXnVpxd9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/框架/vue" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\框架\vue" />
+      <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\ECMAscript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\ECMAscript\原型和原型链" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.原型链代码演示.js">
+    <configuration name="原型链代码演示.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ECMAscript/原型和原型链/原型链代码演示.js" working-dir="$PROJECT_DIR$/ECMAscript/原型和原型链">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.原型链代码演示.js" />
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a72909ca-232a-486f-a081-695713e0e708" name="Default Changelist" comment="" />
+      <created>1582620223371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582620223371</updated>
+      <workItem from="1582620224748" duration="2382000" />
+      <workItem from="1582627978608" duration="5715000" />
+      <workItem from="1582953905534" duration="2000" />
+      <workItem from="1583737884959" duration="3547000" />
+      <workItem from="1583745293278" duration="321000" />
+    </task>
+    <task id="LOCAL-00001" summary="新增文件夹">
+      <created>1582621948378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582621948378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ecmascript更新">
+      <created>1582681776670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582681776671</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ecmascript更新">
+      <created>1582681878740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582681878740</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ecmascript更新">
+      <created>1583737898322</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583737898322</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ecmascript更新">
+      <created>1583738068579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583738068579</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ecmascript更新">
+      <created>1583738146609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583738146609</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ecmascript更新">
+      <created>1583743590736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583743590736</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ecmascript更新">
+      <created>1583743899559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583743899559</updated>
+    </task>
+    <task id="LOCAL-00009" summary="vue更新">
+      <created>1583744486870</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583744486870</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增文件夹" />
+    <MESSAGE value="ecmascript更新" />
+    <MESSAGE value="vue更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue更新" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1384" y="496" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582630850390">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1384" y="496" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1582630850390" />
+    <state x="1029" y="142" key="CommitChangelistDialog2" timestamp="1583745743645">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1029" y="142" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583745743645" />
+    <state x="413" y="64" key="DiffContextDialog" timestamp="1582681751261">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="413" y="64" key="DiffContextDialog/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1582681751261" />
+    <state x="1477" y="462" key="FileChooserDialogImpl" timestamp="1582691873655">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1477" y="462" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1582691873655" />
+    <state width="1478" height="366" key="GridCell.Tab.0.bottom" timestamp="1583744642192">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1478" height="366" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583744642192" />
+    <state width="1478" height="366" key="GridCell.Tab.0.center" timestamp="1583744642192">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1478" height="366" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583744642192" />
+    <state width="1478" height="366" key="GridCell.Tab.0.left" timestamp="1583744642191">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1478" height="366" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583744642191" />
+    <state width="1478" height="366" key="GridCell.Tab.0.right" timestamp="1583744642192">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1478" height="366" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583744642192" />
+    <state x="1015" y="371" key="Vcs.Push.Dialog.v2" timestamp="1583745747790">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1015" y="371" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583745747790" />
+  </component>
+</project>
