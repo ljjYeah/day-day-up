@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a72909ca-232a-486f-a081-695713e0e708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ECMAscript/forInAndForOf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ECMAscript/new一个对象的过程.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ECMAscript/ecmascript.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ECMAscript/this指向/callApplyBind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ECMAscript/this指向/作为对象属性执行.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ECMAscript/this指向/作为普通函数执行.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ECMAscript/this指向/作为构造函数执行.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ECMAscript/this指向/作为独立函数执行.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ECMAscript/new一个对象的过程.js" beforeDir="false" afterPath="$PROJECT_DIR$/ECMAscript/new一个对象的过程.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +53,14 @@
       <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\ECMAscript\原型和原型链" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.new一个对象的过程.js">
-    <configuration name="原型链代码演示.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ECMAscript/原型和原型链/原型链代码演示.js" working-dir="$PROJECT_DIR$/ECMAscript/原型和原型链">
+  <component name="RunManager" selected="Node.js.作为构造函数执行.js">
+    <configuration name="作为构造函数执行.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ECMAscript/this指向/作为构造函数执行.js" working-dir="$PROJECT_DIR$/ECMAscript/this指向">
+      <method v="2" />
+    </configuration>
+    <configuration name="作为独立函数执行.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ECMAscript/this指向/作为独立函数执行.js" working-dir="$PROJECT_DIR$/ECMAscript/this指向">
+      <method v="2" />
+    </configuration>
+    <configuration name="作为对象属性执行.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ECMAscript/this指向/作为对象属性执行.js" working-dir="$PROJECT_DIR$/ECMAscript/this指向">
       <method v="2" />
     </configuration>
     <configuration name="forInAndForOf.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ECMAscript/forInAndForOf.js" working-dir="$PROJECT_DIR$/ECMAscript">
@@ -58,15 +69,13 @@
     <configuration name="new一个对象的过程.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ECMAscript/new一个对象的过程.js" working-dir="$PROJECT_DIR$/ECMAscript">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.作为构造函数执行.js" />
+        <item itemvalue="Node.js.作为对象属性执行.js" />
+        <item itemvalue="Node.js.作为独立函数执行.js" />
         <item itemvalue="Node.js.new一个对象的过程.js" />
         <item itemvalue="Node.js.forInAndForOf.js" />
-        <item itemvalue="Node.js.原型链代码演示.js" />
-        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +94,7 @@
       <workItem from="1582953905534" duration="2000" />
       <workItem from="1583737884959" duration="3547000" />
       <workItem from="1583745293278" duration="3384000" />
-      <workItem from="1583807917930" duration="8080000" />
+      <workItem from="1583807917930" duration="15767000" />
     </task>
     <task id="LOCAL-00001" summary="新增文件夹">
       <created>1582621948378</created>
@@ -185,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583745945020</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="js更新">
+      <created>1583848956108</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583848956108</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,17 +211,18 @@
     <MESSAGE value="新增文件夹" />
     <MESSAGE value="ecmascript更新" />
     <MESSAGE value="vue更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue更新" />
+    <MESSAGE value="js更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="js更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1384" y="496" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582630850390">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1384" y="496" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1582630850390" />
-    <state x="1029" y="142" key="CommitChangelistDialog2" timestamp="1583745944544">
+    <state x="1029" y="142" key="CommitChangelistDialog2" timestamp="1583848955676">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1029" y="142" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583745944544" />
+    <state x="1029" y="142" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583848955676" />
     <state x="413" y="64" key="DiffContextDialog" timestamp="1582681751261">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -214,25 +231,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1477" y="462" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1582691873655" />
-    <state width="1312" height="193" key="GridCell.Tab.0.bottom" timestamp="1583848885669">
+    <state width="1169" height="193" key="GridCell.Tab.0.bottom" timestamp="1583899097894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1312" height="193" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583848885669" />
-    <state width="1312" height="193" key="GridCell.Tab.0.center" timestamp="1583848885669">
+    <state width="1169" height="193" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583899097894" />
+    <state width="1169" height="193" key="GridCell.Tab.0.center" timestamp="1583899097894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1312" height="193" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583848885669" />
-    <state width="1312" height="193" key="GridCell.Tab.0.left" timestamp="1583848885669">
+    <state width="1169" height="193" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583899097894" />
+    <state width="1169" height="193" key="GridCell.Tab.0.left" timestamp="1583899097894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1312" height="193" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583848885669" />
-    <state width="1312" height="193" key="GridCell.Tab.0.right" timestamp="1583848885669">
+    <state width="1169" height="193" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583899097894" />
+    <state width="1169" height="193" key="GridCell.Tab.0.right" timestamp="1583899097894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1312" height="193" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583848885669" />
-    <state x="1015" y="371" key="Vcs.Push.Dialog.v2" timestamp="1583745949448">
+    <state width="1169" height="193" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583899097894" />
+    <state x="1015" y="371" key="Vcs.Push.Dialog.v2" timestamp="1583848957646">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1015" y="371" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583745949448" />
+    <state x="1015" y="371" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583848957646" />
   </component>
 </project>
