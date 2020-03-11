@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a72909ca-232a-486f-a081-695713e0e708" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/框架/vue/code/node_modules/.ignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +39,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\框架\vue\code\node_modules" />
+      <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\html" />
+      <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\ECMAscript" />
+      <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\ECMAscript\原型和原型链" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\框架\vue" />
       <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\ECMAscript" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\wife\day-day-up\ECMAscript\原型和原型链" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.作为构造函数执行.js">
@@ -87,7 +91,7 @@
       <workItem from="1582953905534" duration="2000" />
       <workItem from="1583737884959" duration="3547000" />
       <workItem from="1583745293278" duration="3384000" />
-      <workItem from="1583807917930" duration="25945000" />
+      <workItem from="1583807917930" duration="26934000" />
     </task>
     <task id="LOCAL-00001" summary="新增文件夹">
       <created>1582621948378</created>
@@ -229,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583926008200</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="js更新">
+      <created>1583927105202</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583927105202</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,19 +249,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增文件夹" />
     <MESSAGE value="ecmascript更新" />
-    <MESSAGE value="js更新" />
     <MESSAGE value="vue更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue更新" />
+    <MESSAGE value="js更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="js更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1384" y="496" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582630850390">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1384" y="496" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1582630850390" />
-    <state x="1029" y="142" key="CommitChangelistDialog2" timestamp="1583926007803">
+    <state x="1029" y="142" key="CommitChangelistDialog2" timestamp="1583927104838">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1029" y="142" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583926007803" />
+    <state x="1029" y="142" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583927104838" />
     <state x="413" y="64" key="DiffContextDialog" timestamp="1582681751261">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -275,10 +286,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1169" height="193" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583899097894" />
-    <state x="1015" y="371" key="Vcs.Push.Dialog.v2" timestamp="1583926009988">
+    <state x="1015" y="371" key="Vcs.Push.Dialog.v2" timestamp="1583927106780">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1015" y="371" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583926009988" />
+    <state x="1015" y="371" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1152.2008@0.0.2560.1400" timestamp="1583927106780" />
     <state x="1114" y="299" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1583925884109">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
