@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <!--<tpl-demo></tpl-demo>-->
+<!--        <tpl-demo></tpl-demo>-->
         <!--<computed-demo></computed-demo>-->
         <!--<watch-demo></watch-demo>-->
         <!--<class-demo></class-demo>-->
@@ -8,8 +8,8 @@
         <!--<list-demo></list-demo>-->
         <!--<event-demo></event-demo>-->
         <!--<form-demo></form-demo>-->
-        <!--<component-demo></component-demo>-->
-        <advanced-use></advanced-use>
+        <component-demo></component-demo>
+<!--        <advanced-use></advanced-use>-->
     </div>
 </template>
 

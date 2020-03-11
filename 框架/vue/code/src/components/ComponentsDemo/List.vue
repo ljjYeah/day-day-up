@@ -18,6 +18,9 @@
                 }
             }
         },
+        beforeCreate() {
+            console.log('list beforeCreate');
+        },
         created() {
             console.log('list created');
         },

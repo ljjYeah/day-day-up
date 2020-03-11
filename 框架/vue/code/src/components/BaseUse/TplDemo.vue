@@ -19,6 +19,18 @@
                 dynamicId: `id-${Date.now()}`,
                 rawHtml: '渲染html<b>加粗</b> <i>斜体</i>'
             }
+        },
+        beforeCreate() {
+            console.log('----------beforeCreate----------');
+            console.log("%c%s", "color:red", "el     : "+this.$el);   //undefined
+            console.log("%c%s", "color:red", "data   : "+this.$data); //undefined
+            console.log("%c%s", "color:red", "message: "+this.message);   //undefined
+        },
+        created() {
+            console.log('----------created----------');
+            console.log("%c%s", "color:red", "el     : "+this.$el);   //undefined
+            console.log("%c%s", "color:red", "data   : "+this.$data); //[object Object]
+            console.log("%c%s", "color:red", "message: "+this.message);   //HELLO VUE
         }
     }
 </script>

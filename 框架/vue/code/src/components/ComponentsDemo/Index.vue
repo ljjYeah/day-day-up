@@ -26,6 +26,9 @@
                 this.list.splice(index, 1)
             }
         },
+        beforeCreate() {
+            console.log('index beforeCreate');
+        },
         created() {
             console.log('index created');
         },

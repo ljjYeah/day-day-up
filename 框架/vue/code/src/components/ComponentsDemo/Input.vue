@@ -22,17 +22,5 @@
                 this.value = ''
             }
         },
-        created() {
-            console.log('input created');
-        },
-        mounted() {
-            console.log('input mounted');
-        },
-        beforeUpdate() {
-            console.log('input beforeUpdate');
-        },
-        updated() {
-            console.log('input updated');
-        },
     }
 </script>
