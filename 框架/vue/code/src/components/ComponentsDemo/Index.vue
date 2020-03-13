@@ -1,6 +1,6 @@
 <template>
     <div>
-       <Input @add="addHandler"/>
+        <Input @add="addHandler"/>
         <List :list="list" @delete="deleteHandler"/>
     </div>
 </template>
@@ -8,20 +8,21 @@
 <script>
     import Input from './Input'
     import List from './List'
+
     export default {
         data() {
             return {
                 list: [
-                    {id:'a',title:'标题1'},
-                    {id:'b',title:'标题2'},
-                    {id:'c',title:'标题3'},
+                    {id: 'a', title: '标题1'},
+                    {id: 'b', title: '标题2'},
+                    {id: 'c', title: '标题3'},
                 ],
             }
         },
         methods: {
-           addHandler(title) {
-               this.list.push({id: Date.now(), title})
-           },
+            addHandler(title) {
+                this.list.push({id: Date.now(), title})
+            },
             deleteHandler(index) {
                 this.list.splice(index, 1)
             }

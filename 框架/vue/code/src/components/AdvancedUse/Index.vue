@@ -2,8 +2,8 @@
     <div>
         <p>vue高级特性</p>
 
-        <!--<p>自定义v-model {{name}}</p>-->
-        <!--<custom-v-model v-model="name"></custom-v-model>-->
+        <p>自定义v-model {{name}}</p>
+        <custom-v-model v-model="name"></custom-v-model>
 
         <!--<p>nextTick</p>-->
         <!--<next-tick></next-tick>-->

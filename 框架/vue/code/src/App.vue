@@ -8,8 +8,8 @@
         <!--<list-demo></list-demo>-->
         <!--<event-demo></event-demo>-->
         <!--<form-demo></form-demo>-->
-        <component-demo></component-demo>
-<!--        <advanced-use></advanced-use>-->
+<!--        <component-demo></component-demo>-->
+        <advanced-use></advanced-use>
     </div>
 </template>
 
