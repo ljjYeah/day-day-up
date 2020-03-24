@@ -5,9 +5,12 @@ const obj = {
 
 const arr = ['A', 'B', 'C'];
 
-// for(let key in obj) {
-//     console.log(key);
-// }
+for(let key in obj) {
+    if (key === 'name'){
+        break
+    }
+    console.log(key);
+}
 //
 // for(let index in arr) {
 //     console.log(index);
@@ -38,15 +41,15 @@ const arr = ['A', 'B', 'C'];
 
 
 
-Object.prototype.objCustom = function() {};
-Array.prototype.arrCustom = function() {};
-
-let iterable = [3, 5, 7];
-iterable.foo = 'hello';
-
-for (let i in iterable) {
-    console.log(i); // logs 0, 1, 2, "foo", "arrCustom", "objCustom"
-}
+// Object.prototype.objCustom = function() {};
+// Array.prototype.arrCustom = function() {};
+//
+// let iterable = [3, 5, 7];
+// iterable.foo = 'hello';
+//
+// for (let i in iterable) {
+//     console.log(i); // logs 0, 1, 2, "foo", "arrCustom", "objCustom"
+// }
 
 // for (let i in iterable) {
 //     if (iterable.hasOwnProperty(i)) {
