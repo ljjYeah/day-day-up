@@ -6,22 +6,21 @@ Function.prototype.myCall = function (context) {
     let args = [...arguments].slice(1);
     let result = context.fn(...args);
     delete context.fn;
-    return result
+    return result;
 };
-
 const obj1 = {
-    name:'joy',
-    age:10,
+    name: 'joy',
+    age: 10,
     setInfo(address, age) {
         this.address = address;
         this.age = age;
-        // console.log(this);
-        // console.log(this.name, this.address, this.age);
+        console.log(this);
+        console.log(this.name, this.address, this.age);
     }
 };
 
 const obj2 = {
-    name:'sam'
+    name: 'sam'
 };
 
-obj1.setInfo.myCall(obj2,'ljj',20);
+obj1.setInfo.myCall(obj2, 'ljj', 20);

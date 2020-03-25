@@ -5,6 +5,7 @@ Function.prototype.myBind = function (context) {
     let _this = this;
     let args = [...arguments].slice(1);
     return function F() {
+        // 作为构造函数
         if (this instanceof F) {
             return _this.apply(this, args.concat([...arguments]))
         }
@@ -18,8 +19,8 @@ const obj1 = {
     setInfo(address, age) {
         this.address = address;
         this.age = age;
-        console.log(this);
-        console.log(this.name, this.address, this.age);
+        // console.log(this);
+        // console.log(this.name, this.address, this.age);
     }
 };
 
@@ -29,6 +30,7 @@ const obj2 = {
 
 // { name: 'sam', address: 'ljj', age: 20 }
 // sam ljj 20
-const setInfo = obj1.setInfo.bind(obj2, 'ljj',20);
-setInfo();
+const setInfo = obj1.setInfo.myBind(obj2, 'ljj',20);
+// const test = new setInfo();
+setInfo(2,3);
 
