@@ -22,7 +22,8 @@ console.log(sub1.colors); // [ 'red', 'blue', 'green', 'pink' ]
 console.log(sub2.colors); // [ 'red', 'blue', 'green' ]
 console.log(sub1.name); // ljj
 console.log(sub1 instanceof SuperType); // true
-sub1.superMethod(); // super method
+sub1.superMethod(); //
+// super method
 
 console.log(sub1.constructor); // [Function: SubType]
 
