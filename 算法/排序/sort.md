@@ -1,6 +1,6 @@
 ## 冒泡排序
 
-![avatar](https://liujuanjuan-resource.oss-cn-beijing.aliyuncs.com/day-day-up/bubble.webp)
+![avatar](https://liujuanjuan-resource.oss-cn-beijing.aliyuncs.com/day-day-up/bubble.gif)
 
 - 依次比较相邻的两个数，如果第一个比第二个小，不变。如果第一个比第二个大，调换顺序。一轮下来，最后一个是最大的数
 - 对除了最后一个之外的数重复第一步，直到只剩一个数
