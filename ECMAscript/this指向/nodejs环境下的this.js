@@ -17,7 +17,7 @@
 // console.log(this.num); // 10
 // console.log(global.num); // undefined
 // console.log(this === module.exports);// true
-
+ 
 //函数中的this
 // function fn() {
 //     this.num = 10;
