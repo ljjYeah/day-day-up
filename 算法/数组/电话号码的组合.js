@@ -43,6 +43,7 @@ function letterCombinations(str) {
                 temp.push(arr[0][i] + arr[1][j])
             }
         }
+        // 将数组的前两项使用这两项组合后的结果替换
         arr.splice(0, 2, temp);
         if (arr.length <= 1) {
             return temp;
