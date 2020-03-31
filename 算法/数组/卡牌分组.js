@@ -34,34 +34,34 @@
 // 1 <= deck.length <= 10000
 // 0 <= deck[i] < 10000
 
-function hasGroupsSizeX(arr) {
-    if (arr.length < 2) return false;
+// 计算最大公约数
+function gcd(a, b) {
+    if (b === 0) {
+        return a
+    } else {
+        return gcd(b, a % b)
+    }
+}
+
+function hasGroupsSizeX(deck) {
+    if (deck.length < 2) return false;
     // 把输入的数组转换成key为值，value为出现次数的对象
     const displayInfo = {};
-    arr.forEach(item => {
-        if (displayInfo[item]) {
-            displayInfo[item] += 1;
-        } else {
-            displayInfo[item] = 1;
-        }
+    deck.forEach(item => {
+        displayInfo[item] = displayInfo[item] ? displayInfo[item] + 1 : 1;
     });
-    // 计算出现次数的最小值
+    // 计算出现次数的最大公约数
     const displayNum = Object.values(displayInfo);
-    const K = Math.min(...displayNum);
-    // 出现次数与最小值取余，如果为0则满足要求，否则不满足
-    let result = true;
-    for (let i of displayNum) {
-        if (i % K !== 0) {
-            result = false;
-            break;
-        }
-    }
-    return result;
+    let g = displayNum[0];
+    displayNum.forEach(item => {
+        g = gcd(g, item)
+    });
+    return g >= 2;
 }
 
 // const test = hasGroupsSizeX([1,2,3,4,4,3,2,1]);
 // const test = hasGroupsSizeX([1,1,1,2,2,2,3,3]);
 // const test = hasGroupsSizeX([1]);
 // const test = hasGroupsSizeX([1,1]);
-const test = hasGroupsSizeX([1,1,2,2,2,2]);
+const test = hasGroupsSizeX([1, 1, 1, 1, 2, 2, 2, 2, 2, 2]);
 console.log(test);

@@ -9,7 +9,7 @@
 // 输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 // 说明:
 // 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
-const map = ['', 1, 'abc', 'def', 'ghi', 'jki', 'mno', 'pqrs', 'tuv', 'wxyz'];
+const map = ['', 1, 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'];
 
 // 方法1：使用reduce
 // function letterCombinations(str) {
