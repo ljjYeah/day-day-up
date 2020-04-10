@@ -53,33 +53,16 @@ function getUserAction(e) {
 
 // ------------------------------------------------------
 // 第三版
-// function debounce(func, wait) {
-//     var timeout;
-//     return function () {
-//         var context = this;
-//         var args = arguments;
-//         clearTimeout(timeout);
-//         timeout = setTimeout(function () {
-//             func.apply(context, args);
-//         }, wait);
-//     }
-// }
-//
-// container.onmousemove = debounce(getUserAction, 1000);
-
-// ------------------------------------------------------
-// 第四版
-// 上面的版本已经很完善了，考虑一个需求
-// 不希望非要等到事件停止触发后才执行，我希望立刻执行函数，然后等到停止触发 n 秒后，才可以重新触发执行。
 function debounce(func, wait) {
     var timeout;
-    return function() {
+    return function () {
         var context = this;
         var args = arguments;
         clearTimeout(timeout);
-        timeout = setTimeout(function() {
+        timeout = setTimeout(function () {
             func.apply(context, args);
         }, wait);
     }
 }
+
 container.onmousemove = debounce(getUserAction, 1000);
