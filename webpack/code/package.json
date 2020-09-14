@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config build-optimization/webpack.dev.js",
+    "dev": "webpack-dev-server --config build-base-conf/webpack.dev.js",
     "build": "webpack --config build-optimization/webpack.pro.js"
   },
   "author": "",
