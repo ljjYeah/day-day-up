@@ -38,12 +38,44 @@ class Observed {
   }
 }
 
-let observed = new Observed();
-let observer1 = new Observer();
-let observer2 = new Observer();
+// let observed = new Observed();
+// let observer1 = new Observer();
+// let observer2 = new Observer();
+//
+// observed.addObserver(observer1);
+// observed.addObserver(observer2);
+//
+// observed.notify()
 
-observed.addObserver(observer1);
-observed.addObserver(observer2);
+class Teacher extends Observer {
+  constructor(subject) {
+    super();
+    this.subject = subject
+  }
 
-observed.notify()
+  update(student) {
+    console.log(`${student.name}完成了${this.subject}作业`);
+  }
+}
+
+class Student extends Observed {
+  constructor(name) {
+    super();
+    this.name = name;
+  }
+
+  submitHomework() {
+    this.notify(this);
+  }
+}
+
+const shuxue = new Teacher('数学');
+const yumen = new Teacher('语文');
+const hong = new Student('小红');
+const ming = new Student('小明');
+hong.addObserver(shuxue);
+hong.addObserver(yumen);
+ming.addObserver(shuxue);
+hong.submitHomework();
+ming.submitHomework();
 
