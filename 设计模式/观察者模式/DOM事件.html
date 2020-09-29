@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body{
+      height: 100vh;
+      width: 100vw;
+      background: aliceblue;
+    }
+  </style>
+</head>
+<body></body>
+<script>
+  document.body.addEventListener('click', function () {
+    console.log('点击了body1');
+  }, false);
+  document.body.addEventListener('click', function(){
+    console.log('点击了body2');
+  }, false);
+  document.body.click();
+</script>
+</html>
