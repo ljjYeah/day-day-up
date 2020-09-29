@@ -15,7 +15,7 @@ class Dispatcher {
   }
 
   // 发布
-  emit(type, ...args) {
+  notify(type, ...args) {
     let subscribers = this.dispatcher[type];
     if (!subscribers || !(subscribers.length)) return;
     subscribers.forEach(callback => {
@@ -43,14 +43,14 @@ class Publisher {
     this.id = publisherIds++;
   }
 
-  emit(type, ...args) {
-    dispatcher.emit(type, ...args);
+  notify(type, ...args) {
+    dispatcher.notify(type, ...args);
   }
 }
 
 class Reader extends Subscriber{
-  constructor(name, dispatcher) {
-    super(dispatcher);
+  constructor(name) {
+    super();
     this.name = name;
   }
 }
@@ -61,7 +61,7 @@ class Wx extends Publisher{
     this.name = name;
   }
   publishArticle(...args) {
-    this.emit(this.name, ...args)
+    this.notify(this.name, ...args)
   }
 }
 
