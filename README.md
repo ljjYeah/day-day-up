@@ -31,6 +31,7 @@
 - [渲染优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/渲染优化.md)
 - [代码优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/代码优化.md)
 - [资源优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/资源优化.md)
+- [构建优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/构建优化.md)
 
 
 #### webpack
