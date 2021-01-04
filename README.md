@@ -30,6 +30,7 @@
 - [性能优化的指标和工具](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/性能优化的指标和工具.md)
 - [渲染优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/渲染优化.md)
 - [代码优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/代码优化.md)
+- [资源优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/资源优化.md)
 
 
 #### webpack
