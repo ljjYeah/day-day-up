@@ -41,7 +41,7 @@
 - babel
 
 #### 算法
-- 字符串
+- [字符串](https://github.com/ljjYeah/day-day-up/tree/master/算法/字符串.md)
 - 数组
 - 正则
 - 排序
