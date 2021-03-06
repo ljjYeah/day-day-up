@@ -27,22 +27,23 @@
 
 #### 性能优化
 
-- [性能优化的指标和工具](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/性能优化的指标和工具.md)
-- [渲染优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/渲染优化.md)
-- [代码优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/代码优化.md)
-- [资源优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/资源优化.md)
-- [构建优化](https://github.com/ljjYeah/day-day-up/tree/master/性能优化/构建优化.md)
+- [性能优化的指标和工具](./性能优化/性能优化的指标和工具.md)
+- [渲染优化](./性能优化/渲染优化.md)
+- [代码优化](./性能优化/代码优化.md)
+- [资源优化](./性能优化/资源优化.md)
+- [构建优化](./性能优化/构建优化.md)
 
 
 #### webpack
-- [介绍](https://github.com/ljjYeah/day-day-up/blob/master/webpack/介绍.md)
-- [核心概念](https://github.com/ljjYeah/day-day-up/blob/master/webpack/核心概念.md)
+- [介绍](./webpack/介绍.md)
+- [核心概念](./webpack/核心概念.md)
+- [基本使用](./webpack/基本使用.md)
 - 高级特性
 - 性能优化
 - babel
 
 #### 算法
-- [字符串](https://github.com/ljjYeah/day-day-up/tree/master/算法/字符串.md)
+- [字符串](./算法/字符串.md)
 - 数组
 - 正则
 - 排序

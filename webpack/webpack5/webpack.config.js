@@ -1,16 +1,14 @@
 const path = require('path');
-const webpack = require('webpack');
 
-console.log(webpack);
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     index: './src/index.js',
     search: './src/search.js'
   },
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: '[name].js'
+    filename: '[name][chunkhash:8].js'
   },
   module: {
     rules: [
@@ -28,15 +26,15 @@ module.exports = {
       },
       {
         test: /.(png|jpg|jpeg)$/,
-        use: 'file-loader'
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: './img/[name].[hash:8].[ext]'
+            }
+          }
+        ]
       }
     ]
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ],
-  devServer: {
-    contentBase: './dist',
-    hot: true
-  }
 }
