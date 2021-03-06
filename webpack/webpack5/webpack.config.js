@@ -23,6 +23,17 @@ module.exports = {
       {
         test: /.less$/,
         use: ['style-loader', 'css-loader', 'less-loader']
+      },
+      {
+        test: /.(png|jpg|jpeg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 10240
+            }
+          }
+        ]
       }
     ]
   }
