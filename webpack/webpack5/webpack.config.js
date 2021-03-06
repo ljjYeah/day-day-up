@@ -1,7 +1,9 @@
 const path = require('path');
+const webpack = require('webpack');
 
+console.log(webpack);
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: {
     index: './src/index.js',
     search: './src/search.js'
@@ -26,15 +28,15 @@ module.exports = {
       },
       {
         test: /.(png|jpg|jpeg)$/,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              limit: 10240
-            }
-          }
-        ]
+        use: 'file-loader'
       }
     ]
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
+  devServer: {
+    contentBase: './dist',
+    hot: true
   }
 }

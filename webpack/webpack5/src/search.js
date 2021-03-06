@@ -6,7 +6,7 @@ import './search.less';
 class Search extends React.Component{
   render() {
     return <div>
-      search
+      search3232
       <img src={image} alt='图片'/>
     </div>
   }
