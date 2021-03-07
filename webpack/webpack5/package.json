@@ -5,7 +5,7 @@
   "main": "src/index/index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "dev": "webpack serve --open Chrome.exe --config webpack.dev.js"
+    "dev": "webpack-dev-server --open --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",
@@ -32,7 +32,7 @@
     "react-dom": "^17.0.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.24.3",
-    "webpack-cli": "^4.5.0",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.2"
   },
   "browserslist": [
