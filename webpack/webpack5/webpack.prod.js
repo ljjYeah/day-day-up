@@ -30,7 +30,13 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           'css-loader',
           'less-loader',
-          'postcss-loader'
+          'postcss-loader',
+          {
+            loader: 'px2rem-loader',
+            options: {
+              remUnit: 75
+            }
+          }
         ]
       },
       {
