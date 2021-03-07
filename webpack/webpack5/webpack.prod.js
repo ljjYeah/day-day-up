@@ -29,7 +29,7 @@ const setMPA = () => {
 const { entry, htmlWebpackPluginsArr } = setMPA();
 
 module.exports = {
-  mode: 'production',
+  mode: 'none',
   entry: entry,
   output: {
     path: path.join(__dirname, 'dist'),
@@ -85,5 +85,6 @@ module.exports = {
       filename: '[name].[contenthash:8].css'
     }),
     ...htmlWebpackPluginsArr
-  ]
+  ],
+  devtool: 'source-map'
 }
