@@ -1,15 +1,36 @@
 const path = require('path');
+const glob = require('glob');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+const setMPA = () => {
+  let entry = {};
+  let htmlWebpackPluginsArr = [];
+  const filePaths = glob.sync(path.join(__dirname, 'src/*/index.js'));
+  filePaths.forEach(item => {
+    const fileName = (item.match(/src\/(.*)\/index.js$/))[1];
+    entry[fileName] = item;
+    htmlWebpackPluginsArr.push(new HtmlWebpackPlugin({
+      template: path.join(__dirname, `./src/${fileName}/index.html`),
+      filename: `${fileName}.html`,
+      chunks: [fileName],
+      scriptLoading: 'blocking',
+      inject: 'body'
+    }))
+  });
+  return {
+    entry,
+    htmlWebpackPluginsArr
+  }
+};
+
+const { entry, htmlWebpackPluginsArr } = setMPA();
+
 module.exports = {
   mode: 'production',
-  entry: {
-    index: './src/index.js',
-    search: './src/search.js'
-  },
+  entry: entry,
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].[chunkhash:8].js'
@@ -63,15 +84,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash:8].css'
     }),
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, './src/index.html'),
-      filename: 'index.html',
-      chunks: ['index']
-    }),
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, './src/search.html'),
-      filename: 'search.html',
-      chunks: ['search']
-    })
+    ...htmlWebpackPluginsArr
   ]
 }

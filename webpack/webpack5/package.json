@@ -2,7 +2,7 @@
   "name": "webpack5",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/index/index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --open"
@@ -20,6 +20,7 @@
     "css-loader": "^5.1.1",
     "css-minimizer-webpack-plugin": "^1.2.0",
     "file-loader": "^6.2.0",
+    "glob": "^7.1.6",
     "html-webpack-plugin": "^5.2.0",
     "less": "^4.1.1",
     "less-loader": "^8.0.0",
