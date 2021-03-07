@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <%=require('raw-loader!./meta.html').default%>
   <title>Title</title>
+  <script>
+    <%= require('raw-loader!babel-loader!../node_modules/lib-flexible/flexible.js').default %>
+  </script>
 </head>
 <body>
 <div id='app'></div>
