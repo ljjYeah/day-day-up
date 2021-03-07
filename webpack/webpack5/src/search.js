@@ -5,7 +5,7 @@ import './search.less';
 
 class Search extends React.Component{
   render() {
-    return <div>
+    return <div className={'container'}>
       search3232
       <img src={image} alt='图片'/>
     </div>
