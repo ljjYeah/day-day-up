@@ -5,7 +5,7 @@
   "main": "src/index/index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "dev": "webpack-dev-server --open"
+    "dev": "webpack serve --open Chrome.exe --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",

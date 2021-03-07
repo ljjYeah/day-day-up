@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import image from '../images/images.jpeg';
 import './search.less';
 
-class Search extends React.Component{
+class Search extends React.Component {
   render() {
     return <div className={'container'}>
       search3232
