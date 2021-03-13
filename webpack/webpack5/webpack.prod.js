@@ -3,7 +3,6 @@ const glob = require('glob');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const setMPA = () => {
@@ -16,7 +15,7 @@ const setMPA = () => {
     htmlWebpackPluginsArr.push(new HtmlWebpackPlugin({
       template: path.join(__dirname, `./src/${fileName}/index.html`),
       filename: `${fileName}.html`,
-      chunks: [fileName],
+      chunks: ['vendors', fileName],
       scriptLoading: 'blocking',
       inject: 'body'
     }))
@@ -78,26 +77,22 @@ module.exports = {
     minimize: true,
     minimizer: [
       new CssMinimizerPlugin()
-    ]
+    ],
+    splitChunks: {
+      minSize: 0,
+      cacheGroups: {
+        commons: {
+          name: 'commons',
+          chunks: 'all',
+          minChunks: 2
+        }
+      }
+    }
   },
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash:8].css'
-    }),
-    new HtmlWebpackExternalsPlugin({
-      externals: [
-        {
-          module: 'react',
-          entry: 'https://unpkg.com/react@17/umd/react.production.min.js',
-          global: 'React'
-        },
-        {
-          module: 'react-dom',
-          entry: 'https://unpkg.com/react-dom@17/umd/react-dom.production.min.js',
-          global: 'ReactDOM'
-        }
-      ]
     }),
     ...htmlWebpackPluginsArr
   ]

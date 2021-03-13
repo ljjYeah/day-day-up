@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import image from '../images/images.jpeg';
 import './search.less';
+import test from '../../common';
+
+test()
 
 class Search extends React.Component {
   render() {
