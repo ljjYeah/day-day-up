@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <canvas height="500" width="500"></canvas>
+  <script>
+    const canvas = document.querySelector('canvas');
+    const context = canvas.getContext('2d');
+
+    const rectSize = [100, 100];
+    context.fillStyle = 'red';
+    context.beginPath();
+    context.translate(-0.5*rectSize[0], -0.5*rectSize[1]);
+    // context.rect(0.5*(canvas.width-rectSize[0]), 0.5*(canvas.height-rectSize[1]), ...rectSize);
+    context.rect(0.5*canvas.width, 0.5*canvas.height, ...rectSize);
+    context.fill();
+
+    console.log('canvas', canvas);
+  </script>
+</body>
+</html>
